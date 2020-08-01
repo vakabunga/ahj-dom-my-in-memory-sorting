@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  width: 350px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+}
+
+ul {
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+
+.arrowUp, .arrowDown {
+  height: 15px;
+  display: none;
+}
+
+.active {
+  display: inline;
+  vertical-align: sub;
+}
+
+.cell {
+  border: black dashed 1px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+.id {
+  width: 70px;
+}
+
+.title {
+  width: 220px;
+}
+
+.imdb {
+  width: 100px;
+}
+
+.year {
+  width: 100px;
+}
+
+th {
+  text-align: left;
+}
